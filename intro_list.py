@@ -55,3 +55,15 @@ age.remove(18)
 '''The remove() method deletes only the first occurrence of the value you specify. If there’s
 a possibility the value appears more than once in the list, you’ll need to use a loop'''
 print(age)
+
+'''the order of the list to store them alphabetically,The sort() method changes the order of the list permanently'''
+students.sort()
+age.sort()
+print(students)
+print(age)
+
+students.sort(reverse=True) #You can also sort this list in reverse-alphabetical order 
+print(students)
+
+print("Lenght of Student List : ",len(students))  
+'''You can quickly find the length of a list by using the len() function.'''
